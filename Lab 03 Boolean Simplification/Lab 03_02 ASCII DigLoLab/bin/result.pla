@@ -1,0 +1,17 @@
+Z7 = ;
+
+Z6 = (!In2&In1&In0) | (In2&In1&In0) | (!In1&!In0) | (!In2&!In1&In0) | (
+    In2&!In1) | (In1&!In0);
+
+Z5 = (In2&!In1&!In0) | (In2&In1&In0) | (!In2&!In1&In0) | (In1&!In0);
+
+Z4 = ;
+
+Z3 = (!In2&In1&In0) | (!In2&!In1&In0) | (In2&!In1);
+
+Z2 = (!In2&In1&!In0) | (!In2&In1&In0) | (!In1&!In0) | (In2&!In1);
+
+Z1 = (!In2&In1&!In0) | (In2&!In1&!In0) | (In2&In1&In0);
+
+Z0 = (In2&!In1&!In0) | (!In2&!In1&In0) | (In1&!In0);
+

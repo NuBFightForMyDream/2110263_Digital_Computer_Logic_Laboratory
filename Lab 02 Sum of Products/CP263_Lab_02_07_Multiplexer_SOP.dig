@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>CP263 Lab 02_07 Multiplexer 2:1 (Sum of Products)
+Z = X_0.~S + X_1.S</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>X1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>X0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Selector</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="680" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Z</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="420"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="500" y="320"/>
+      <p2 x="680" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="480"/>
+      <p2 x="680" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="480"/>
+      <p2 x="740" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="400"/>
+      <p2 x="920" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="420"/>
+      <p2 x="640" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="420"/>
+      <p2 x="1040" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="340"/>
+      <p2 x="880" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="500"/>
+      <p2 x="880" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="360"/>
+      <p2 x="680" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="520"/>
+      <p2 x="740" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="440"/>
+      <p2 x="920" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="360"/>
+      <p2 x="640" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="420"/>
+      <p2 x="640" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="340"/>
+      <p2 x="880" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="440"/>
+      <p2 x="880" y="500"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
