@@ -1,0 +1,2 @@
+*.dig linguist-language=XML
+*.dig linguist-detectable=true
