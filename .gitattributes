@@ -1,2 +1,2 @@
 *.dig linguist-language=XML
-*.dig linguist-detectable=true
+*.dig linguist-type=programming
