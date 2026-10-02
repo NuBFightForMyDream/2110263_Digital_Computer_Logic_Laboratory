@@ -1,0 +1,2 @@
+O = (!In2&In1&!In0) | (In2&!In1&In0) | (In3&In1&!In0) | (In3&!In1&In0);
+
